@@ -116,6 +116,7 @@ function draw() {
       reset();
     }
   }
+  
   camera.position.x = trex.x;
   camera.position.y = trex.y;  
 
