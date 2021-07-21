@@ -111,13 +111,14 @@ function draw() {
     //set lifetime of the game objects so that they are never destroyed
     obstaclesGroup.setLifetimeEach(-1);
     cloudsGroup.setLifetimeEach(-1);
-    
+   
     if(mousePressedOver(restart)) {
       reset();
     }
   }
-  
-  
+  camera.position.x = trex.x;
+  camera.position.y = trex.y;  
+
   drawSprites();
 }
 
